@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print to console
-        run: echo Hello GH Actions!
+        run: echo Hello GH Actions!(her)
+      - name: Print a few lines
+        run: |
+          echo First line!
+          echo Second line!
